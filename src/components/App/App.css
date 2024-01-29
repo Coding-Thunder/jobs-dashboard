@@ -1,0 +1,57 @@
+:root {
+  --blue-primary:#365CAF;
+  --blue-secondary:#0479AD;
+  --gray-primary:#96BCE8;
+  --shadow-primary:rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; 
+  --red-primary : #E12D2D;
+  --green-primary:#00A38B;
+  --yellow-primary:#F5C162;
+  --pink-primary:#B36CA7;
+  --gray-secondary:#A5A4A7;
+
+}
+.App {
+  border-radius: 8px;
+  min-height: 100vh;
+  max-height: fit-content;
+  padding: 20px;
+  /* margin: 20px 70px; */
+}
+.Flex {
+  display: flex;
+}
+
+.Item__Center {
+  align-items: center;
+}
+
+.Space__Between {
+  justify-content: space-between;
+}
+
+.Justify__Center {
+  justify-content: center;
+}
+
+.Flex__Column {
+  flex-direction: column;
+}
+
+.Gap__5 {
+  gap: 5px;
+}
+
+.Text__Bold {
+  font-weight: 500;
+}
+
+.Button__Default {
+  outline: none;
+  padding: 5px 10px ;
+}
+
+.Button__Default2 {
+  outline: none;
+  font-size: 18px;
+  padding: 10px 15px ;
+}

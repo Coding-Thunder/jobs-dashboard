@@ -1,0 +1,35 @@
+.Header {
+    background-color: var(--blue-primary);
+    height: 80px;
+    color: #fff;
+    padding:0 40px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.Header__Left {
+    gap: 20px;
+}
+
+.HeaderItem {
+    height: 100%;
+    cursor: pointer;
+    width: fit-content;
+}
+.Header__Right {
+    border-left: 1px solid gray;
+    gap: 20px;
+    padding: 0 20px;
+    height: 100%;
+}
+
+.HeaderItem  .anticon {
+    height: 12px !important;
+    width: 12px !important;
+    font-weight: 500;
+}
+
+.User__Type {
+    font-weight: normal;
+    color: var(--gray-primary);
+}

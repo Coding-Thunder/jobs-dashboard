@@ -1,0 +1,80 @@
+
+.Dashboard {
+  box-shadow: var(--shadow-primary);
+  width: 90vw;
+  margin: 0 auto;
+  padding: 10px 30px;
+  border-radius: 6PX;
+
+}
+.Total__Jobs {
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.Add__Jobs {
+    gap: 4px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    background-color: var(--blue-secondary);
+}
+
+.Jobs__Table {
+    font-size: 20px;
+}
+
+
+
+.Jobs__Table th {
+    padding-top: 70px !important;
+    padding-bottom: 10px !important;
+    background-color: var(--blue-secondary) !important;
+    color: white !important;
+    font-size: 22px;
+}
+
+.Jobs__Table td {
+    font-size: 20px;
+    box-shadow: var(--shadow-primary);    
+}
+
+
+.Text__Cell__Blue {
+    color: var(--blue-secondary);
+}
+
+.Text__Cell__Small {
+    font-size: 16px;
+}
+.Blue__Wrapped {
+    color: white !important;
+    background-color: var(--blue-secondary);
+    border-radius: 6px;
+    font-weight: 500;
+    padding: 0 10px;
+}
+
+
+.Red__Wrapped {
+    color: white;
+    background-color: var(--red-primary);
+    border-radius: 6px;
+    font-weight: 500;
+    padding: 0 10px;
+}
+
+.Green__Wrapped {
+    color: white;
+    background-color: var(--green-primary);
+    border-radius: 6px;
+    font-weight: 500;
+    padding: 0 10px;
+}
+
+
+.Customer__Address {
+    text-align: center;
+    width: 22ch;
+}

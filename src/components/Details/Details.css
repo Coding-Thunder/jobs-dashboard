@@ -1,0 +1,113 @@
+.Details {
+    padding: 10px 30px;
+}
+
+.Details__Id {
+    font-size: 24px;
+}
+
+.Top__Header__Common {
+    padding: 10px 15px;
+    gap: 8px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.Add__Comment {
+    background-color: var(--yellow-primary);
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.Job__Detail {
+    border-radius: 6px;
+}
+
+.Top__Header {
+    width: fit-content;
+}
+
+.Comment__Icon {
+    font-size: 18px;
+}
+
+.Add__Penalty {
+    background-color: var(--pink-primary);
+    color: white;
+}
+
+.Add__Note {
+    color: white;
+    background-color: var(--blue-primary);
+}
+
+.Details__Jon__Number {
+    box-shadow: var(--shadow-primary);
+    padding: 30px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    margin-bottom: 0;
+}
+
+.Job__Details__Bottom {
+    padding: 10px 30px;
+    box-shadow: var(--shadow-primary);
+    height: 100vh;
+}
+
+.Job__Details__Bottom .ant-tabs-tab {
+    font-size: 20px;
+}
+
+.Job__Details__Bottom .ant-tabs {
+    width: 100%;
+}
+
+.Job__Card {
+    width: 29vw;
+    box-shadow: var(--shadow-primary);
+    font-size: 20px;
+    font-weight: 500;
+    height: fit-content;
+    border-radius: 6px ;
+}
+
+.Job__Card2 {
+    width: 29vw;
+    font-size: 20px;
+    font-weight: 500;
+    height: fit-content;
+    border-radius: 6px ;
+    gap: 20px;
+}
+
+.Job_Card__Header {
+    background-color: var(--blue-primary);
+    color: white;
+    padding: 5px 30px;
+}
+
+.Card__Info {
+    padding: 5px 30px;
+}
+
+.Field__Right {
+    color: var(--gray-secondary);
+}
+
+.Pink__Wrapped {
+    color: white;
+    background-color: var(--pink-primary);
+    border-radius: 4px;
+    font-weight: 500;
+    padding: 0 10px;
+    gap: 5px;
+}
+.Field__Pink {
+    color: var(--pink-primary);
+}
+
+.Card__Dual {
+    box-shadow: var(--shadow-primary);
+    border-radius: 6px;
+}
